@@ -1,5 +1,7 @@
+__pycache__
 *.txt
 *.csv
 *.json
+*.jsonl
 *.env
 .venv

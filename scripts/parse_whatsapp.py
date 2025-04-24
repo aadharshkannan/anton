@@ -26,22 +26,7 @@ import json
 import re
 from typing import List, Iterable
 
-from pydantic import BaseModel, Field
-
-# ---------------------------------------------------------------------------
-# Pydantic models
-# ---------------------------------------------------------------------------
-
-class Exchange(BaseModel):
-    time: str = Field(..., description="Timestamp in original WhatsApp format")
-    author: str
-    message: str
-
-class Session(BaseModel):
-    session_start: str
-    session_end: str
-    exchanges: List[Exchange]
-
+from shared_models import Exchange, Session
 # ---------------------------------------------------------------------------
 # Regex helpers
 # ---------------------------------------------------------------------------
