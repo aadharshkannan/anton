@@ -94,10 +94,12 @@ logging.basicConfig(
 # Prompt and LLM helper
 # ---------------------------------------------------------------------------
 PROMPT_TEMPLATE = (
-    "You are generating alternative chat replies. You will be given a chat context "
-    "and the original reply. Produce FOUR different, brief (≤15 words) replies a person "
-    "could plausibly say in that context. Do not repeat the original reply. "
-    "Return ONLY a JSON array of four strings with no additional text."
+    "You are generating adversarial chat replies. You will be given a chat context "
+    "and the original reply. Produce FOUR brief (≤15 words) replies that sound plausible "
+    "in the context, but subtly mislead, contradict, or distract from the intent of the "
+    "original reply. Avoid obvious nonsense. Do NOT repeat the original reply. Focus on "
+    "ambiguity, sarcasm, partial agreement, or believable misunderstandings."
+    " Return ONLY a JSON array of four strings, with no commentary or explanation."
 )
 
 
