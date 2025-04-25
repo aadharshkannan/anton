@@ -1,5 +1,10 @@
-# anton
-Repository that allows anyone to create their own LLM
+# Anton
+
+A repository that enables anyone to create their own LLM from WhatsApp data.
+
+## Directory Structure
+
+```text
 anton/
 ├── data/
 │   ├── raw/                     # Raw WhatsApp export
@@ -13,8 +18,8 @@ anton/
 │   └── fine-tune-example.ipynb  # Script to fine-tune the LLM
 │
 ├── models/
-│   └── checkpoints/           # Save fine-tuned models here
+│   └── checkpoints/             # Save fine-tuned models here
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project overview and usage instructions
+└── .gitignore                   # Files/directories to ignore in version control
