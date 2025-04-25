@@ -1,7 +1,10 @@
 __pycache__
-*.txt
 *.csv
 *.json
 *.jsonl
 *.env
 .venv
+data/hallaswag_format/*
+data/raw/*
+data/processed/*
+data/models/*
