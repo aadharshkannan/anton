@@ -20,3 +20,5 @@ tenacity
 tqdm
 typing_extensions
 zipp
+torch
+transformers
