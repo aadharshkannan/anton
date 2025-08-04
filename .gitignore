@@ -8,3 +8,4 @@ data/hallaswag_format/*
 data/raw/*
 data/processed/*
 data/models/*
+*/.ipynb_checkpoints/
